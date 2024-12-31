@@ -1,0 +1,21 @@
+{
+  "name": "hardhat-javascript-starter",
+  "scripts": {
+    "build": "npx thirdweb@latest detect",
+    "deploy": "npx thirdweb@latest deploy",
+    "release": "npx thirdweb@latest release",
+    "prettier:solidity": "./node_modules/.bin/prettier --write contracts/**/*.sol"
+  },
+  "devDependencies": {
+    "@matterlabs/hardhat-zksync-solc": "^0.3.17",
+    "hardhat": "^2.13.0",
+    "prettier": "^3.4.2",
+    "prettier-plugin-solidity": "^1.4.1",
+    "solhint-plugin-prettier": "^0.1.0"
+  },
+  "dependencies": {
+    "@thirdweb-dev/contracts": "^3",
+    "cross-spawn": "^7.0.6",
+    "zksync-web3": "^0.14.3"
+  }
+}
